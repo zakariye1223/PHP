@@ -1,11 +1,8 @@
 <?php
 
-echo "<h1>PHP Assignment 1</h1>";
+echo "<h1>PHP Assignment </h1>";
 
-/* =====================================================
-   QUESTION 1
-   Greatest and Smallest of Three Numbers
-   ===================================================== */
+
 
 echo "<h2>Question 1: Greatest and Smallest</h2>";
 
@@ -36,10 +33,7 @@ echo "Greatest = $greatest<br>";
 echo "Smallest = $smallest";
 
 
-/* =====================================================
-   QUESTION 2
-   Divisible by 3, 5, Both or None
-   ===================================================== */
+
 
 echo "<hr>";
 echo "<h2>Question 2: Divisible by 3 and 5</h2>";
@@ -67,11 +61,7 @@ if ($number % 3 == 0 && $number % 5 == 0) {
 }
 
 
-/* =====================================================
-   QUESTION 3
-   Odd Numbers 2-20
-   Even Numbers 35-7
-   ===================================================== */
+
 
 echo "<hr>";
 echo "<h2>Question 3: Odd Numbers from 2 to 20</h2>";
@@ -198,7 +188,7 @@ echo "<h2 style='text-align:center;'>Question 8: Multiplication Table</h2>";
 echo "<table border='1' cellspacing='0' cellpadding='8'
 style='margin:auto; border-collapse:collapse; text-align:center;'>";
 
-for ($i = 1; $i <= 12; $i++) {
+for ($i = 1; $i <= 4; $i++) {
 
     echo "<tr>";
 
